@@ -4,7 +4,7 @@
 
 
 /* Style globale */
-body{
+.body{
   margin: 5% 10%;
   font-family: "roboto";
   color: #1e3245;
@@ -125,19 +125,10 @@ input{
   font-style: italic;
 }
 
-.project {
-    flex-grow : 1;
-    color: red;
-}
 
-.flex {
-    display: flex;
+.card-project{
+  diplsay : flex ; 
 }
-
-.justify-between {
-    justify-content: space-between;
-}
-
 
 .sticky-bar{
   position : sticky;
@@ -161,5 +152,19 @@ input{
 {
   display : flex;
   width : 45%;
+  justify-content : space-between;
+}
+
+.gauche{
+  
+}
+
+
+a{
+  text-decoration : nounderline;
+}
+
+.bande{
+  display : flex;
   justify-content : space-between;
 }
