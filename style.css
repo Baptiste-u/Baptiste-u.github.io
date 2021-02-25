@@ -137,3 +137,29 @@ input{
 .justify-between {
     justify-content: space-between;
 }
+
+
+.sticky-bar{
+  position : sticky;
+  top: 10px;
+}
+
+.sticky-bar{
+  height : 75px;
+  background-color : white;
+  box-shadow : 1px 1px 7px rgba(0, 0, 0, 0.07);
+  position : sticky;
+  top : 5px;
+  width : 100%;
+  border-radius : 10px;
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.droite
+{
+  display : flex;
+  width : 45%;
+  justify-content : space-between;
+}
